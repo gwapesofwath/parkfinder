@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 1 </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/camping-2app.css">
+</head>
+<body>
+        <nav class="site-navigation page-navigation">
+                <div class="top-nav">
+                     <ul class="nav justify-content-end">
+                     <li class="nav-item">
+                      <a class="nav-link active home-click" href="#home">Home</a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link about-click" href="#about">About</a>
+                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link getstarted-click" href="#getstarted">Get Started</a>
+                    </li>
+                     </ul>
+                 </div>
+        
+    <!--  Header  -->
+                 <div class="header">
+                        <img id="park-background" src="assets/images/people-2561455_1280.jpg">
+                        <div class="col-sm">
+                </div>
+
+
+    <!--  Map -->
+                <div class="map-container">
+                    
+                    
+                </div>
+
+    <!--  Park Information -->
+
+            <div class="row">
+                <div class="col-sm park-information"></div>
+          
+                <div class="information-container">
+                    <p class="parkName">Park Name: </p>
+                    <p id="parkAddress">Park Address: </p>
+                    <p id="parkNumber">Park Number:</p>
+                    <p id="parkHours">Park Hours: </p>
+
+                </div>
+            </div>
+
+
+    <!-- Constellation Information -->
+
+
+
+    <!-- Park Information -->
+ <table class="table">
+        <thead>
+                <tr>
+                       <th id="planet">Astro Info</th>
+                       <th id="Constellation">Planet Name</th>
+                       <th id="distance">Constellation Name</th> 
+                </tr>
+               </thead>
+               <tbody id="tbody">
+               </tbody>
+       </table> 
+
+       <script src="assets/javascript/app.js"></script>
+       <!-- <script src="javascript/logic.js"></script> -->
+       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8FQO6WQJol2jJZi-9rg5ADYo_kKWDy88&callback=initMap"></script>
+</body>
+</html>
